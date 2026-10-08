@@ -1,0 +1,71 @@
+{
+  "result": "PASS",
+  "source_reference_sha256": "b10fd0cfc86b1016856217aea87baa679dcb63d7a3c9f4726e661097fa30f318",
+  "scope": "Offline extracted skeleton comparison. No runtime outfit testing is claimed.",
+  "outfits": [
+    {
+      "outfit": "Hero",
+      "body_source": "Kmdl/al.bmd",
+      "face_source": "Kmdl/al_face.bmd",
+      "body_joints": 35,
+      "face_joints": 5,
+      "names_and_parent_indices_match_hero": true,
+      "body_local_rest_max_delta_from_hero": 0.0,
+      "body_global_rest_max_delta_from_hero": 0.0,
+      "body_inverse_global_rest_max_delta_from_hero": 0.0,
+      "face_local_rest_max_delta_from_hero": 0.0,
+      "face_global_rest_max_delta_from_hero": 0.0,
+      "face_inverse_global_rest_max_delta_from_hero": 0.0,
+      "body_JNT_rest_times_native_EVP_inverse_max_error": 0.02308818906153931,
+      "face_JNT_rest_times_native_EVP_inverse_max_error": 0.0007243713358473514
+    },
+    {
+      "outfit": "Ordon",
+      "body_source": "Bmdl/bl.bmd",
+      "face_source": "Bmdl/al_face.bmd",
+      "body_joints": 35,
+      "face_joints": 5,
+      "names_and_parent_indices_match_hero": true,
+      "body_local_rest_max_delta_from_hero": 0.0,
+      "body_global_rest_max_delta_from_hero": 0.0,
+      "body_inverse_global_rest_max_delta_from_hero": 0.0,
+      "face_local_rest_max_delta_from_hero": 0.0,
+      "face_global_rest_max_delta_from_hero": 0.0,
+      "face_inverse_global_rest_max_delta_from_hero": 0.0,
+      "body_JNT_rest_times_native_EVP_inverse_max_error": 0.02308818906153931,
+      "face_JNT_rest_times_native_EVP_inverse_max_error": 0.0007243713358473514
+    },
+    {
+      "outfit": "Zora",
+      "body_source": "Zmdl/zl.bmd",
+      "face_source": "Zmdl/zl_face.bmd",
+      "body_joints": 35,
+      "face_joints": 5,
+      "names_and_parent_indices_match_hero": true,
+      "body_local_rest_max_delta_from_hero": 0.0,
+      "body_global_rest_max_delta_from_hero": 0.0,
+      "body_inverse_global_rest_max_delta_from_hero": 0.0,
+      "face_local_rest_max_delta_from_hero": 0.0,
+      "face_global_rest_max_delta_from_hero": 0.0,
+      "face_inverse_global_rest_max_delta_from_hero": 0.0,
+      "body_JNT_rest_times_native_EVP_inverse_max_error": 0.023088189120826996,
+      "face_JNT_rest_times_native_EVP_inverse_max_error": 0.0007243713358473514
+    },
+    {
+      "outfit": "Magic",
+      "body_source": "Mmdl/ml.bmd",
+      "face_source": "Mmdl/al_face.bmd",
+      "body_joints": 35,
+      "face_joints": 5,
+      "names_and_parent_indices_match_hero": true,
+      "body_local_rest_max_delta_from_hero": 0.0,
+      "body_global_rest_max_delta_from_hero": 0.0,
+      "body_inverse_global_rest_max_delta_from_hero": 0.0,
+      "face_local_rest_max_delta_from_hero": 0.0,
+      "face_global_rest_max_delta_from_hero": 0.0,
+      "face_inverse_global_rest_max_delta_from_hero": 0.0,
+      "body_JNT_rest_times_native_EVP_inverse_max_error": 0.02308818906153931,
+      "face_JNT_rest_times_native_EVP_inverse_max_error": 0.0007243713358473514
+    }
+  ]
+}

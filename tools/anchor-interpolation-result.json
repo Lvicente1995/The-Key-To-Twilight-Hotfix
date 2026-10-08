@@ -1,0 +1,8 @@
+{
+  "cases": 42000,
+  "maximum_uncorrected_anchor_discrepancy_cm": 29.78997356017126,
+  "maximum_corrected_anchor_offset_error_cm": 1.2930334605037596e-13,
+  "maximum_first_link_extension_cm": 4.3520742565306136e-14,
+  "result": "PASS",
+  "note": "Checks the anchor correction algebra and rigid-motion interpolation numerically, not GPU rendering or exact closed-ring contact."
+}

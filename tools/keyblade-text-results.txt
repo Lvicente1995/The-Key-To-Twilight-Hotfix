@@ -1,0 +1,33 @@
+Kingdom Key v0.2.3 text replacement validation
+
+Host API: official MessageService 1.1 from pinned Dusklight SDK commit
+40457c6adb381928e4b5fef6ed459ed291edd5e2 (Dusklight 2.0.3).
+
+Read-only scan of the user's US GameCube message archives established:
+  Common group 0, message 0x018D: Collection/item name, "Ordon Sword".
+  Common group 0, message 0x008D: pickup message, "Ordon sword".
+These were the only explicit English named references in all ten archives.
+Only those two English messages are registered. Descriptions, generic sword
+dialogue, other item names and other languages retain their original text.
+The ISO and installed game files are not edited.
+
+Test: tools/keyblade_text_test.cpp, MSVC x64 C++20, /O2 /W4.
+PASS: 483 text and MessageService lifecycle checks.
+
+Checks cover the real encoded pickup message (color, pacing and pause tags),
+all truncation points in three messages, embedded NULs inside control tags,
+text-like tag arguments, malformed lengths/color tags, trailing bytes,
+language/group/message scoping, null inputs, registration rollback, callback
+output lifetime contract, reinitialization, and repeated shutdown.
+
+Runtime correction: Collection reads title bytes directly through
+dMeter2Info_getStringKanji, bypassing MessageService. The bounded plain-title
+helper is therefore called by a post-hook on that exported DUSK_NOINLINE
+wrapper. It requires message 0x018D and the exact original English string,
+including its NUL; the 12-byte replacement has the same size. Added tests
+cover all undersized capacities, unchanged guard bytes, missing terminators,
+other IDs, repeated replacement and localized output. MessageService remains
+registered for processed name references and the item pickup message.
+
+This is source/API validation. In-game title and pickup presentation still
+require a runtime check in the final integrated v0.2.3 build.

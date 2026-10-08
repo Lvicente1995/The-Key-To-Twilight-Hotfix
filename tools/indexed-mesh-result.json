@@ -1,0 +1,123 @@
+{
+  "result": "PASS",
+  "parts": [
+    {
+      "name": "rigid",
+      "corners": 92136,
+      "triangles": 30712,
+      "unique_vertices": 15433,
+      "max_index": 15432
+    },
+    {
+      "name": "chain_01",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_02",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_03",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_04",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_05",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_06",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_07",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_08",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_09",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_10",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_11",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_12",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_13",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "chain_14",
+      "corners": 4320,
+      "triangles": 1440,
+      "unique_vertices": 720,
+      "max_index": 719
+    },
+    {
+      "name": "charm",
+      "corners": 3600,
+      "triangles": 1200,
+      "unique_vertices": 618,
+      "max_index": 617
+    }
+  ],
+  "total_unique_vertices": 26131,
+  "total_triangles": 52072,
+  "unique_vertex_bytes_color_pass": 836192,
+  "unique_vertex_bytes_shadow_pass": 313572,
+  "index_bytes_per_pass": 312432,
+  "reconstruction": "Bit-exact match of all source triangles and all 12-float vertex attributes after indexing; triangle order and seams preserved."
+}

@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "scope": "Offline synthetic pose exercise using each extracted native outfit skeleton and the production Xion skinning implementation; not a runtime outfit or native animation-clip test.",
+  "outfits": 4,
+  "body_and_face_joints": 40,
+  "poses_per_outfit": 52,
+  "synthetic_scenario_poses": 12,
+  "isolated_joint_poses": 40,
+  "vertices_per_pose": 23110,
+  "skinned_vertex_samples": 4806880,
+  "max_bind_position_error_cm": 1.69096602e-05,
+  "max_outfit_position_delta_cm": 0,
+  "max_outfit_normal_delta": 0,
+  "max_normal_length_error": 1.78813934e-07,
+  "max_exercised_displacement_cm": 555.847656,
+  "mesh_sha256": "a4851fd1d5cdbed842504fa32a6e11d5553e33d0eee4fdc5e78257cb40dc646a",
+  "mesh_bytes": 1559842
+}

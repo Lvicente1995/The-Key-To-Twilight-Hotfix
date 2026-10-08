@@ -1,0 +1,7 @@
+Final corrected mesh SHA-256: a4851fd1d5cdbed842504fa32a6e11d5553e33d0eee4fdc5e78257cb40dc646a
+Asset PASS: 12 materials, 23110 unique vertices, 28370 triangles
+PASS: all byte-boundary truncations, transactional failure, bad indices/palette/paths, 3000 transformed skinning cases, padded GX RGBA8 tiling
+PASS: 4 outfits x 52 synthetic poses x 23110 vertices = 4806880 samples. Bind error 1.69097e-05 cm; outfit difference 0 cm.
+
+Scope: offline production decoder/skinning and extracted skeleton compatibility.
+These checks do not cover runtime animation selection, cloth collision, finger contact, in-game lighting or every outfit gameplay scenario.

@@ -1,0 +1,20 @@
+Character voice module checks (2026-10-07)
+
+PASS: native character_voice.hpp compile with Dusklight v2.0.3 headers,
+MSVC 14.44, Windows x64, C++20. Only pre-existing JSUIosBase warnings.
+PASS: character_voice_mapping_test.cpp: exactly 152 human Link vocal IDs,
+all ten semantic groups, unique mappings, and wolf/other-category exclusion
+across 1,114,112 candidate IDs. Representative cutscene cues are included.
+PASS: test_prepare_xion_voice.py: cue-to-track resolution, byte-identical mono
+PCM preservation, stereo averaging without timing changes, and rejection of
+unreviewed selection entries lacking source evidence.
+
+Reproduce from the project directory (assertions enabled; no /DNDEBUG):
+  cl /nologo /EHsc /std:c++20 /O2 /W4 tools/character_voice_mapping_test.cpp /Fe:character_voice_mapping_test.exe
+  .\character_voice_mapping_test.exe
+  python tools/test_prepare_xion_voice.py
+
+These checks do not claim that the selected recordings were auditioned or
+that in-game audio, character toggling, cutscenes, or other native platforms
+have been runtime-tested. Asset provenance is recorded separately after
+source-based clip selection and conversion.

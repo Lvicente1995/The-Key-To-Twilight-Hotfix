@@ -1,0 +1,28 @@
+Historical procedural-effect simulation validation
+Compiler: Microsoft C/C++ 19.44.35207, x64, /std:c++20 /EHsc /O2 /W4
+Source: tools/summon_fx_test.cpp
+Production headers: src/summon_fx.hpp and src/keyblade_presence.hpp
+
+PASS: 2851060 checks, 941735 finite bounded particle samples, 2000 replacement bursts, 10000 presence reversals.
+Fixed 30 Hz; burst <=0.60s; 39 owned particles; inward/outward motion, basis mapping, immutable interpolation and five-tick vanish verified.
+
+Checks include deterministic seeded output, render sampling without simulation
+mutation, snapshot survival after reset/retrigger, interpolation bounds,
+transformed weapon bases, particle size/position/opacity bounds, burst expiry,
+initial-held synchronization without an effect, one event per held-state edge,
+five-tick vanishing, rapid reversals, and reset hiding the model.
+
+Native renderer compile check: PASS with the Dusklight v2.0.3 SDK headers and
+release ABI definitions. This checks the GX/J3DPacket API types and signatures.
+It does not substitute for in-game verification of appearance or queue timing.
+
+Run in an x64 Visual Studio developer shell, from the project folder:
+  cl /nologo /EHsc /std:c++20 /O2 /W4 tools/summon_fx_test.cpp /Fe:summon_fx_test.exe
+  .\summon_fx_test.exe
+The pure test also supports a standard C++17 or later compiler without the SDK.
+
+Recheck after the production presence timing changed to seven delay ticks and
+two transition ticks: PASS 2,851,068 checks, 941,735 finite bounded particle
+samples, 2,000 replacement bursts, 10,000 presence reversals. The original
+five-tick result above describes the earlier iteration. The current test uses
+the updated timing; neither result validates the shipped KHIII renderer.

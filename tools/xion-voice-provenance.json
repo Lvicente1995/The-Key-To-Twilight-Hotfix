@@ -1,0 +1,286 @@
+{
+  "source_banks": [
+    "Battle_Xion_Project",
+    "kg8720262xi0_Project",
+    "kg8720263xi0_Project",
+    "kg8720279xi0_Project",
+    "kg8720280xi0_Project"
+  ],
+  "language": "English",
+  "conversion": "PCM16 mono; stereo (L+R)/2 when necessary; original sample rate, duration, pitch and gain.",
+  "classification": "Battle roles use KH3 animation/VoiceGroup evidence. The user auditioned four cutscene samples on 2026-10-07 and identified breath, light grunt, surprise and stronger grunt in that order. Cross-game role reuse is documented; no generated speech or changed vocal performance.",
+  "clips": [
+    {
+      "cue": "bt2150010xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_001.wav",
+      "groups": [
+        "HurtLight"
+      ],
+      "evidence": "Xion n_ex033 rt/body/0201..0204,0207,0208,0223 animation voice imports; common Donald0201 is DeckDamageS2 and common Sora0201/0207 are damage reactions. Content not auditioned.",
+      "source_sha256": "ac882d0cef50b5e7e1da5610ffa336dd2d4151b617698e96508c78926a65c090",
+      "file": "res/xion/voice/bt2150010xi0.wav",
+      "sha256": "ac882d0cef50b5e7e1da5610ffa336dd2d4151b617698e96508c78926a65c090",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 19123,
+      "seconds": 0.39839583333333334,
+      "peak_pcm16": 32767,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150020xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_002.wav",
+      "groups": [
+        "HurtLight"
+      ],
+      "evidence": "Xion n_ex033 rt/body/0201..0204,0207,0208,0223 animation voice imports; common Donald0201 is DeckDamageS2 and common Sora0201/0207 are damage reactions. Content not auditioned.",
+      "source_sha256": "f1d08636696ba8e8eee8ab03b5acb8185765c4343cdf1c7d587643899ed7a970",
+      "file": "res/xion/voice/bt2150020xi0.wav",
+      "sha256": "f1d08636696ba8e8eee8ab03b5acb8185765c4343cdf1c7d587643899ed7a970",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 24205,
+      "seconds": 0.5042708333333333,
+      "peak_pcm16": 32767,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150030xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_003.wav",
+      "groups": [
+        "Scream"
+      ],
+      "evidence": "Xion rt/body/0211 imports this cue; common Sora0211 explicitly uses VoiceGroup damage_dead. Adapted to Link defeat/falling/scream events, without claiming an exact matching performance. Content not auditioned.",
+      "source_sha256": "3813c5b26abbf71e6772366a7a2a27893076b8f4888eb85cc3e9531d02988eae",
+      "file": "res/xion/voice/bt2150030xi0.wav",
+      "sha256": "3813c5b26abbf71e6772366a7a2a27893076b8f4888eb85cc3e9531d02988eae",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 24205,
+      "seconds": 0.5042708333333333,
+      "peak_pcm16": 28050,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150040xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_004.wav",
+      "groups": [
+        "HurtHeavy"
+      ],
+      "evidence": "Xion rt/body/0241 imports this cue; her AnimSet explicitly names0241 BadStatStunStart. Adapted to strong pain; this is not a death recording classification. Content not auditioned.",
+      "source_sha256": "4de406ce4b6327599eb6bdf1042fa03ad41a7a608b499d0f57243ea47760f051",
+      "file": "res/xion/voice/bt2150040xi0.wav",
+      "sha256": "4de406ce4b6327599eb6bdf1042fa03ad41a7a608b499d0f57243ea47760f051",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 31854,
+      "seconds": 0.663625,
+      "peak_pcm16": 23534,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150050xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_005.wav",
+      "groups": [
+        "HurtHeavy"
+      ],
+      "evidence": "Xion rt/body/0241 imports this cue; her AnimSet explicitly names0241 BadStatStunStart. Adapted to strong pain; this is not a death recording classification. Content not auditioned.",
+      "source_sha256": "9033e8f2f5c8204bf7e69f3647b8e5c015f661fbbb62f73963d196f2b0f66b4d",
+      "file": "res/xion/voice/bt2150050xi0.wav",
+      "sha256": "9033e8f2f5c8204bf7e69f3647b8e5c015f661fbbb62f73963d196f2b0f66b4d",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 33248,
+      "seconds": 0.6926666666666667,
+      "peak_pcm16": 29850,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150060xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_006.wav",
+      "groups": [
+        "AttackLight",
+        "Jump",
+        "Exertion"
+      ],
+      "evidence": "Xion rt/body/1300 and1301 Attack1_Combo1/Combo2 random voice imports. Jump/exertion reuse is a disclosed cross-game vocal-intent adaptation. Content not auditioned.",
+      "source_sha256": "5185a51d055fd12b851377be40c5a47574f61eeda0fc627afc71c88d54e92450",
+      "file": "res/xion/voice/bt2150060xi0.wav",
+      "sha256": "5185a51d055fd12b851377be40c5a47574f61eeda0fc627afc71c88d54e92450",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 12364,
+      "seconds": 0.25758333333333333,
+      "peak_pcm16": 32767,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150070xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_007.wav",
+      "groups": [
+        "AttackLight",
+        "Jump",
+        "Exertion"
+      ],
+      "evidence": "Xion rt/body/1300 and1301 Attack1_Combo1/Combo2 random voice imports. Jump/exertion reuse is a disclosed cross-game vocal-intent adaptation. Content not auditioned.",
+      "source_sha256": "d66b48d9a96e21e0cd875d297f69032fa0bef54430b7848f9479f8bee75d917b",
+      "file": "res/xion/voice/bt2150070xi0.wav",
+      "sha256": "d66b48d9a96e21e0cd875d297f69032fa0bef54430b7848f9479f8bee75d917b",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 16871,
+      "seconds": 0.3514791666666667,
+      "peak_pcm16": 32767,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150080xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_008.wav",
+      "groups": [
+        "AttackLight",
+        "Jump",
+        "Exertion"
+      ],
+      "evidence": "Xion rt/body/1300 and1301 Attack1_Combo1/Combo2 random voice imports. Jump/exertion reuse is a disclosed cross-game vocal-intent adaptation. Content not auditioned.",
+      "source_sha256": "9caac6683839d096656f8b83eeb30f4d6d400ad4dbca4e3cbaf2999d72e61671",
+      "file": "res/xion/voice/bt2150080xi0.wav",
+      "sha256": "9caac6683839d096656f8b83eeb30f4d6d400ad4dbca4e3cbaf2999d72e61671",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 24100,
+      "seconds": 0.5020833333333333,
+      "peak_pcm16": 32768,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150090xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_009.wav",
+      "groups": [
+        "AttackStrong"
+      ],
+      "evidence": "Xion rt/body/1302 Attack1_ComboFinish voice imports. Content not auditioned.",
+      "source_sha256": "b85e0832844727254b62ffee704029c6c33ab297136c150a23abe62d60bf927f",
+      "file": "res/xion/voice/bt2150090xi0.wav",
+      "sha256": "b85e0832844727254b62ffee704029c6c33ab297136c150a23abe62d60bf927f",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 26825,
+      "seconds": 0.5588541666666667,
+      "peak_pcm16": 32767,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "bt2150100xi0",
+      "decoded_project": "Battle_Xion_Project",
+      "decoded_track": "Battle_Xion_010.wav",
+      "groups": [
+        "AttackStrong"
+      ],
+      "evidence": "Xion rt/body/1302 Attack1_ComboFinish voice imports. Content not auditioned.",
+      "source_sha256": "96ef4eba0ef8bd5202b2af723ab5d0c8d098c8655ffe2f61fdf6dff9aa49a76d",
+      "file": "res/xion/voice/bt2150100xi0.wav",
+      "sha256": "96ef4eba0ef8bd5202b2af723ab5d0c8d098c8655ffe2f61fdf6dff9aa49a76d",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 24520,
+      "seconds": 0.5108333333333334,
+      "peak_pcm16": 28815,
+      "gain": 1.0,
+      "source_volume": 0.5
+    },
+    {
+      "cue": "kg8720262xi0",
+      "decoded_project": "kg8720262xi0_Project",
+      "decoded_track": "kg8720262xi0_000.wav",
+      "groups": [
+        "Breath"
+      ],
+      "evidence": "User audition on 2026-10-07: clip 1 sounded like a breath. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged.",
+      "source_sha256": "61a53538afbcbeba7830889981f816476a6629d5f0b94bfd5399b3bd05f7b2d0",
+      "file": "res/xion/voice/kg8720262xi0.wav",
+      "sha256": "61a53538afbcbeba7830889981f816476a6629d5f0b94bfd5399b3bd05f7b2d0",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 49248,
+      "seconds": 1.026,
+      "peak_pcm16": 8999,
+      "gain": 1.0,
+      "source_volume": 0.6499999761581421
+    },
+    {
+      "cue": "kg8720263xi0",
+      "decoded_project": "kg8720263xi0_Project",
+      "decoded_track": "kg8720263xi0_000.wav",
+      "groups": [
+        "Soft"
+      ],
+      "evidence": "User audition on 2026-10-07: clip 2 sounded like a light grunt. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged.",
+      "source_sha256": "d30cdee96419d9bd65e19f25bca8780a1b9355e751ccf6b0c4c5f2850102ee2d",
+      "file": "res/xion/voice/kg8720263xi0.wav",
+      "sha256": "d30cdee96419d9bd65e19f25bca8780a1b9355e751ccf6b0c4c5f2850102ee2d",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 25358,
+      "seconds": 0.5282916666666667,
+      "peak_pcm16": 26369,
+      "gain": 1.0,
+      "source_volume": 0.6499999761581421
+    },
+    {
+      "cue": "kg8720279xi0",
+      "decoded_project": "kg8720279xi0_Project",
+      "decoded_track": "kg8720279xi0_000.wav",
+      "groups": [
+        "Gasp"
+      ],
+      "evidence": "User audition on 2026-10-07: clip 3 sounded like a surprised reaction. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged.",
+      "source_sha256": "47f24d913d9967b427f4d5b269843f5c412e23ad3e6cf4ed7bb163e2bade8227",
+      "file": "res/xion/voice/kg8720279xi0.wav",
+      "sha256": "47f24d913d9967b427f4d5b269843f5c412e23ad3e6cf4ed7bb163e2bade8227",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 34736,
+      "seconds": 0.7236666666666667,
+      "peak_pcm16": 24747,
+      "gain": 1.0,
+      "source_volume": 0.6499999761581421
+    },
+    {
+      "cue": "kg8720280xi0",
+      "decoded_project": "kg8720280xi0_Project",
+      "decoded_track": "kg8720280xi0_000.wav",
+      "groups": [
+        "Exertion"
+      ],
+      "evidence": "User audition on 2026-10-07: clip 4 sounded like a more apparent grunt. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged.",
+      "source_sha256": "f4c117f1d11ba7a0dff0a35c197f72b0179e7c34fceee9def15ca870c6941732",
+      "file": "res/xion/voice/kg8720280xi0.wav",
+      "sha256": "f4c117f1d11ba7a0dff0a35c197f72b0179e7c34fceee9def15ca870c6941732",
+      "source_channels": 1,
+      "sample_rate": 48000,
+      "frames": 27034,
+      "seconds": 0.5632083333333333,
+      "peak_pcm16": 31526,
+      "gain": 1.0,
+      "source_volume": 0.6499999761581421
+    }
+  ]
+}

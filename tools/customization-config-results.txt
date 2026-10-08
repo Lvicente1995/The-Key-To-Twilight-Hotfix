@@ -1,0 +1,23 @@
+Customization configuration regression: PASS
+
+Source: tools/customization_config_test.cpp
+Production: src/customization_config.hpp, src/keyblade_selection.hpp, src/character_selection.hpp
+Compiler: MSVC 19.44.35207, Windows x64, C++20, /W4; assertions enabled. No compile warnings.
+
+Reproduction from a developer prompt in the KingdomKey source directory:
+cl /nologo /EHsc /std:c++20 /W4 /I <dusklight>/sdk/include tools/customization_config_test.cpp /Fe:customization_config_test.exe
+.\customization_config_test.exe
+
+Verified against mocked public ConfigService v1 and UiService v2 interfaces:
+- Defaults Kingdom Key / None and silent saved-value startup reads.
+- Independent Keyblade and Character selections, stable 0/1 IDs and correct dropdown labels.
+- Runtime callbacks only queue the latest requested pair; unchanged values do not queue changes.
+- Reload and teardown retain persisted values, with no live config variables or subscriptions after shutdown.
+- Unknown saved/runtime IDs normalize safely to None without changing the other choice.
+- Panel rebuild reacquires element handles; stale status rows do not fail the mod.
+- All 16 partial initialization failure paths release earlier config/subscription registrations.
+- UI callbacks safely no-op after shutdown while the host completes panel detach.
+
+The public SDK automatically removes the mod-owned panel during detach. It has no explicit unregister_mods_panel function. The System object must therefore remain alive for the mod's lifetime.
+
+This harness does not validate model activation, actor transitions, the rendered settings UI, or non-Windows runtime behavior. Those require integration and game testing.

@@ -1,0 +1,24 @@
+UI service regression: PASS
+
+Compiler: MSVC 19.44.35207, Windows x64, C++20, /W4, assertions enabled.
+Production header: src/keyblade_ui.hpp
+Harness: tools/ui_regression.cpp
+
+From an MSVC developer prompt in the KingdomKey source directory:
+cl /nologo /EHsc /std:c++20 /W4 /I <dusklight>/sdk/include tools/ui_regression.cpp /Fe:ui_regression.exe
+.\ui_regression.exe
+
+Verified with mocked public SDK services:
+- Registered texture and loaded resource ownership, including failed initialization rollback.
+- Shutdown before initialize, repeated shutdown, disable and re-enable.
+- Only canonical Ordon item sources are replaced; empty, other items, prefixes and other providers remain unchanged.
+- Repeated PNG contents give a stable touch source URL; revised PNG bytes change the URL.
+- Invalid PNG header/dimensions and missing resources fail before registration.
+- Collection-only horizontal mirroring leaves the button pane unchanged, restores exact prior UVs (including custom crops), and balances nested/overflow draw calls.
+- The Ordon HUD pane temporarily uses zero Z rotation; exact angle restoration preserves its pivot, current scale/position, and native presentation changes made during draw. Other panes remain unchanged; nesting and inactive behavior pass.
+
+The Collection helper also compiled against the actual Dusklight v2.0.3 J2DPicture type; only a pre-existing JUTTexture bool-operation warning was emitted.
+
+The harness tests resource/service and URL behavior. It does not decode a complete PNG, test the host detour, render the icon, or validate Android runtime behavior. Those require packaged-asset and game checks.
+
+

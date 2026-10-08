@@ -1,0 +1,561 @@
+{
+  "format": "KKFXM002",
+  "result": "PASS",
+  "mesh_count": 8,
+  "bytes": 87552,
+  "sha256": "72aa584ad9e6c4b6c2ad8a465563362dbff77b1797c0c655449880e3b177b882",
+  "checks": [
+    "source binary suffix equality",
+    "buffer strides and counts",
+    "section triangle and index bounds",
+    "finite positions and UVs",
+    "serialized render bounds",
+    "complete output round-trip equality"
+  ],
+  "meshes": [
+    {
+      "name": "jmd_cir_32x1_00",
+      "vertices": 33,
+      "triangles": 32,
+      "bounds_min": [
+        0.0,
+        -49.99995422363281,
+        -50.0
+      ],
+      "bounds_max": [
+        0.0,
+        49.99998474121094,
+        49.99996566772461
+      ],
+      "uv_min": [
+        0.0,
+        0.0
+      ],
+      "uv_max": [
+        1.0,
+        1.0
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": false,
+      "vertex_color_byte_range": null,
+      "vertex_color_unique_bgra": [],
+      "render_bounds": [
+        0.0,
+        1.52587890625e-05,
+        -1.52587890625e-05,
+        0.0,
+        49.999969482421875,
+        49.99998474121094,
+        49.99998474121094
+      ],
+      "section": [
+        0,
+        0,
+        32,
+        0,
+        32,
+        1,
+        1
+      ],
+      "source_sha256": {
+        ".uasset": "ad7637581b593e0d3f8a84edd6a8771a394b8293aaeb5c5d0039a0ca4ba610fb",
+        ".uexp": "9f312a549548ae46b11b82132ff7f8a6e835b36b6bc99033282d19483c5b939b"
+      }
+    },
+    {
+      "name": "mmd_brd_2x6_02",
+      "vertices": 30,
+      "triangles": 32,
+      "bounds_min": [
+        -25.0,
+        -25.0,
+        -2.5000007152557373
+      ],
+      "bounds_max": [
+        25.0,
+        25.0,
+        47.499996185302734
+      ],
+      "uv_min": [
+        0.0,
+        0.0
+      ],
+      "uv_max": [
+        1.0,
+        1.0
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": true,
+      "vertex_color_byte_range": [
+        0,
+        255
+      ],
+      "vertex_color_unique_bgra": [
+        [
+          255,
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          255,
+          255,
+          127
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "render_bounds": [
+        0.0,
+        0.0,
+        22.499998092651367,
+        25.0,
+        25.0,
+        24.999998092651367,
+        35.35533905029297
+      ],
+      "section": [
+        0,
+        0,
+        32,
+        0,
+        29,
+        1,
+        1
+      ],
+      "source_sha256": {
+        ".uasset": "992fa886aa832a8d1b6a9ef477b0e444235462c2b4eaecf994ac8dbd690756a9",
+        ".uexp": "dcdfca0baf55793c6f9bad96b133710e4ed2abccdbe5052f361e357eef360d1a"
+      }
+    },
+    {
+      "name": "zmd_grd_01",
+      "vertices": 10,
+      "triangles": 6,
+      "bounds_min": [
+        -1.3944401866918324e-14,
+        -50.24000549316406,
+        -50.30723571777344
+      ],
+      "bounds_max": [
+        1.3944401866918324e-14,
+        50.24000549316406,
+        193.32777404785156
+      ],
+      "uv_min": [
+        0.0,
+        0.0003979206085205078
+      ],
+      "uv_max": [
+        1.0,
+        0.5244140625
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": false,
+      "vertex_color_byte_range": null,
+      "vertex_color_unique_bgra": [],
+      "render_bounds": [
+        0.0,
+        0.0,
+        71.51026916503906,
+        1.3944401866918324e-14,
+        50.24000549316406,
+        121.8175048828125,
+        131.7708740234375
+      ],
+      "section": [
+        0,
+        0,
+        6,
+        0,
+        9,
+        1,
+        1
+      ],
+      "source_sha256": {
+        ".uasset": "8edd17c2290130bfc32b716111960a6595bad9c8a8d2e61841100bd0edbc7b56",
+        ".uexp": "87017d15fac4a74d04848a5e77c4c4b26ebebcd7726041700035660f1c95e29c"
+      }
+    },
+    {
+      "name": "smd_so010_00",
+      "vertices": 2556,
+      "triangles": 3054,
+      "bounds_min": [
+        -21.231822967529297,
+        -3.9739060401916504,
+        -14.498130798339844
+      ],
+      "bounds_max": [
+        78.90786743164062,
+        3.9739060401916504,
+        14.498128890991211
+      ],
+      "uv_min": [
+        0.0251007080078125,
+        0.00568389892578125
+      ],
+      "uv_max": [
+        0.974609375,
+        0.994140625
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": false,
+      "vertex_color_byte_range": null,
+      "vertex_color_unique_bgra": [],
+      "render_bounds": [
+        28.838024139404297,
+        0.0,
+        -9.5367431640625e-07,
+        50.069847106933594,
+        3.9739060401916504,
+        14.498129844665527,
+        50.12301254272461
+      ],
+      "section": [
+        0,
+        0,
+        3054,
+        0,
+        2555,
+        0,
+        1
+      ],
+      "source_sha256": {
+        ".uasset": "79d5129da486b279cc6df222b54be9773db9f91f6a46445813811596eb08f22b",
+        ".uexp": "e112f9ecb6516fd77ed93a77df941d6cc5fb1d22408779555c9025d4fb963878"
+      }
+    },
+    {
+      "name": "smd_so020_rsn0",
+      "vertices": 99,
+      "triangles": 128,
+      "bounds_min": [
+        -0.19348500669002533,
+        -0.19348500669002533,
+        -1.8920792006631574e-20
+      ],
+      "bounds_max": [
+        0.19348500669002533,
+        0.19348500669002533,
+        0.4887959957122803
+      ],
+      "uv_min": [
+        0.0,
+        0.0
+      ],
+      "uv_max": [
+        0.53125,
+        2.0
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": true,
+      "vertex_color_byte_range": [
+        0,
+        255
+      ],
+      "vertex_color_unique_bgra": [
+        [
+          255,
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          255,
+          255,
+          31
+        ],
+        [
+          255,
+          255,
+          255,
+          63
+        ],
+        [
+          255,
+          255,
+          255,
+          95
+        ],
+        [
+          255,
+          255,
+          255,
+          127
+        ],
+        [
+          255,
+          255,
+          255,
+          159
+        ],
+        [
+          255,
+          255,
+          255,
+          191
+        ],
+        [
+          255,
+          255,
+          255,
+          223
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "render_bounds": [
+        0.0,
+        0.0,
+        0.24439799785614014,
+        0.19348500669002533,
+        0.19348500669002533,
+        0.24439799785614014,
+        0.31171610951423645
+      ],
+      "section": [
+        0,
+        0,
+        128,
+        0,
+        98,
+        0,
+        0
+      ],
+      "source_sha256": {
+        ".uasset": "c2d8b8fcbb7a75c2c17f926f367397012baec8c1c40c3c4f6f758926a756066d",
+        ".uexp": "75835b0d466966618440fb6ec76d1118c3d082eb348ff0258474f4664ce2ee4f"
+      }
+    },
+    {
+      "name": "jmd_cir_12x2_00",
+      "vertices": 25,
+      "triangles": 36,
+      "bounds_min": [
+        0.0,
+        -50.0,
+        -50.0
+      ],
+      "bounds_max": [
+        0.0,
+        50.0,
+        50.0
+      ],
+      "uv_min": [
+        0.0,
+        0.0
+      ],
+      "uv_max": [
+        1.0,
+        1.0
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": false,
+      "vertex_color_byte_range": null,
+      "vertex_color_unique_bgra": [],
+      "render_bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "section": [
+        0,
+        0,
+        36,
+        0,
+        24,
+        1,
+        1
+      ],
+      "source_sha256": {
+        ".uasset": "fce8dca2a1282c484cb13a1146b055b97192e9c1f54ad53f231e40d3cc45bd54",
+        ".uexp": "c7c441af3b3846ac0814529275907c8466af4bec064ed28e603c6a199300e7f4"
+      }
+    },
+    {
+      "name": "jmd_dst_8_00",
+      "vertices": 25,
+      "triangles": 12,
+      "bounds_min": [
+        -27.44839096069336,
+        -17.43224334716797,
+        -4.188221454620361
+      ],
+      "bounds_max": [
+        28.37306022644043,
+        25.35995864868164,
+        6.009387493133545
+      ],
+      "uv_min": [
+        0.125,
+        0.0
+      ],
+      "uv_max": [
+        0.875,
+        1.0
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": true,
+      "vertex_color_byte_range": [
+        52,
+        255
+      ],
+      "vertex_color_unique_bgra": [
+        [
+          52,
+          52,
+          52,
+          255
+        ],
+        [
+          63,
+          63,
+          63,
+          255
+        ],
+        [
+          71,
+          71,
+          71,
+          255
+        ],
+        [
+          83,
+          83,
+          83,
+          255
+        ],
+        [
+          111,
+          111,
+          111,
+          255
+        ],
+        [
+          118,
+          118,
+          118,
+          255
+        ],
+        [
+          183,
+          183,
+          183,
+          255
+        ],
+        [
+          199,
+          199,
+          199,
+          255
+        ],
+        [
+          212,
+          212,
+          212,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "render_bounds": [
+        0.46233367919921875,
+        3.963857650756836,
+        0.9105830192565918,
+        27.910724639892578,
+        21.396100997924805,
+        5.098804473876953,
+        35.535892486572266
+      ],
+      "section": [
+        0,
+        0,
+        12,
+        0,
+        24,
+        1,
+        1
+      ],
+      "source_sha256": {
+        ".uasset": "11251c2fb6b29a5a6d3190db57f6f7640cf6c2332f11c6f9a8cc06a7cb050336",
+        ".uexp": "3c395d2f262b2a6972c8ba03ee9b1117372770731e1cad9394b017e65cfa0fdc"
+      }
+    },
+    {
+      "name": "omd_grd_04x04_00",
+      "vertices": 32,
+      "triangles": 16,
+      "bounds_min": [
+        -10.126556396484375,
+        -48.98712158203125,
+        -22.414764404296875
+      ],
+      "bounds_max": [
+        10.126556396484375,
+        48.98712158203125,
+        22.414764404296875
+      ],
+      "uv_min": [
+        0.018218994140625,
+        0.01067352294921875
+      ],
+      "uv_max": [
+        1.0009765625,
+        0.9990234375
+      ],
+      "uv_channels": 1,
+      "source_uv_precision": "float16",
+      "vertex_colors_present": false,
+      "vertex_color_byte_range": null,
+      "vertex_color_unique_bgra": [],
+      "render_bounds": [
+        0.0,
+        0.0,
+        0.0,
+        10.126556396484375,
+        48.98712158203125,
+        22.414764404296875,
+        48.98712158203125
+      ],
+      "section": [
+        0,
+        0,
+        16,
+        0,
+        31,
+        1,
+        1
+      ],
+      "source_sha256": {
+        ".uasset": "b9a033e313680b77b12c4d49feace8458b6479aded5c8b23b5cab19b73ac1973",
+        ".uexp": "13501e7f834097feeacb331772285ecd4bbcb1eb1111089d83c36387b2cf8438"
+      }
+    }
+  ]
+}

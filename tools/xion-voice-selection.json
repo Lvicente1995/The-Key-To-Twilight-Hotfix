@@ -1,0 +1,133 @@
+{
+  "classification": "Battle roles use KH3 animation/VoiceGroup evidence. The user auditioned four cutscene samples on 2026-10-07 and identified breath, light grunt, surprise and stronger grunt in that order. Cross-game role reuse is documented; no generated speech or changed vocal performance.",
+  "clips": [
+    {
+      "cue": "bt2150010xi0",
+      "groups": [
+        "HurtLight"
+      ],
+      "evidence": "Xion n_ex033 rt/body/0201..0204,0207,0208,0223 animation voice imports; common Donald0201 is DeckDamageS2 and common Sora0201/0207 are damage reactions. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150020xi0",
+      "groups": [
+        "HurtLight"
+      ],
+      "evidence": "Xion n_ex033 rt/body/0201..0204,0207,0208,0223 animation voice imports; common Donald0201 is DeckDamageS2 and common Sora0201/0207 are damage reactions. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150030xi0",
+      "groups": [
+        "Scream"
+      ],
+      "evidence": "Xion rt/body/0211 imports this cue; common Sora0211 explicitly uses VoiceGroup damage_dead. Adapted to Link defeat/falling/scream events, without claiming an exact matching performance. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150040xi0",
+      "groups": [
+        "HurtHeavy"
+      ],
+      "evidence": "Xion rt/body/0241 imports this cue; her AnimSet explicitly names0241 BadStatStunStart. Adapted to strong pain; this is not a death recording classification. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150050xi0",
+      "groups": [
+        "HurtHeavy"
+      ],
+      "evidence": "Xion rt/body/0241 imports this cue; her AnimSet explicitly names0241 BadStatStunStart. Adapted to strong pain; this is not a death recording classification. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150060xi0",
+      "groups": [
+        "AttackLight",
+        "Jump",
+        "Exertion"
+      ],
+      "evidence": "Xion rt/body/1300 and1301 Attack1_Combo1/Combo2 random voice imports. Jump/exertion reuse is a disclosed cross-game vocal-intent adaptation. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150070xi0",
+      "groups": [
+        "AttackLight",
+        "Jump",
+        "Exertion"
+      ],
+      "evidence": "Xion rt/body/1300 and1301 Attack1_Combo1/Combo2 random voice imports. Jump/exertion reuse is a disclosed cross-game vocal-intent adaptation. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150080xi0",
+      "groups": [
+        "AttackLight",
+        "Jump",
+        "Exertion"
+      ],
+      "evidence": "Xion rt/body/1300 and1301 Attack1_Combo1/Combo2 random voice imports. Jump/exertion reuse is a disclosed cross-game vocal-intent adaptation. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150090xi0",
+      "groups": [
+        "AttackStrong"
+      ],
+      "evidence": "Xion rt/body/1302 Attack1_ComboFinish voice imports. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "bt2150100xi0",
+      "groups": [
+        "AttackStrong"
+      ],
+      "evidence": "Xion rt/body/1302 Attack1_ComboFinish voice imports. Content not auditioned.",
+      "source_volume": 0.5,
+      "source_volume_evidence": "Original English KH3 cue asset Volume property; applies separately at runtime without modifying PCM."
+    },
+    {
+      "cue": "kg8720262xi0",
+      "groups": [
+        "Breath"
+      ],
+      "source_volume": 0.6499999761581421,
+      "evidence": "User audition on 2026-10-07: clip 1 sounded like a breath. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged."
+    },
+    {
+      "cue": "kg8720263xi0",
+      "groups": [
+        "Soft"
+      ],
+      "source_volume": 0.6499999761581421,
+      "evidence": "User audition on 2026-10-07: clip 2 sounded like a light grunt. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged."
+    },
+    {
+      "cue": "kg8720279xi0",
+      "groups": [
+        "Gasp"
+      ],
+      "source_volume": 0.6499999761581421,
+      "evidence": "User audition on 2026-10-07: clip 3 sounded like a surprised reaction. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged."
+    },
+    {
+      "cue": "kg8720280xi0",
+      "groups": [
+        "Exertion"
+      ],
+      "source_volume": 0.6499999761581421,
+      "evidence": "User audition on 2026-10-07: clip 4 sounded like a more apparent grunt. Selected original English cutscene vocal cue. Native cue volume retained at playback; PCM unchanged."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+KH3 effect simulation and resource validation
+Compiler: Microsoft C/C++ 19.44.35207, x64, /std:c++20 /EHsc /O2 /W4
+Assertions enabled (do not define NDEBUG).
+
+PASS: 8,208,016 assertions in kh3_fx_regression.cpp.
+23 source emitter definitions, 65 original constant/uniform curve tables,
+18 APP0 scheduled instances (including duplicated spiral children),
+68 APP0 particle births, 1 hit glow + 1 flash + 7 actual mesh fragments.
+Snapshot: 7,056 bytes, owned by value; capacity 384 particles / 8 events.
+
+Checks cover original curve tangents, locked axes, uniform endpoints,
+duplicate-time curve keys, neutral source colors, exact child-emitter delays,
+same seeded APP0 for summon/dismiss, source Key delay 0.18311s, deterministic
+render sampling, snapshot survival, finite values, expiry, resets, sustained
+retriggering, and retention of the 1.26 attached-weapon basis scale, including
+exact 180-degree interpolation with orthogonal finite axes at both endpoints
+and the midpoint.
+Additional visual-correction regression verifies Unreal pitch/roll/yaw signs,
+source -90-degree pitch sending mesh +Z along blade +X, independent emissive
+RGB/opacity mask inputs, source opacity multipliers, spiral UV curve endpoints,
+and finite scrolling UVs under the full retrigger stress run.
+
+Actual indexed GX vertex payload, from shipped KKFXM002 geometry:
+  APP0: peak 78,288 bytes; 52 simultaneously visible particles.
+  HIT0: peak 5,568 bytes; 9 simultaneously visible particles.
+  Retrigger stress: peak 187,008 bytes; 112 visible particles.
+All three passed the 1 MiB effect-payload ceiling.
+These figures exclude the world's and weapon's separate render packets.
+
+Run from the project folder in an x64 Visual Studio developer shell:
+  cl /nologo /EHsc /std:c++20 /O2 /W4 tools/kh3_fx_regression.cpp /Fe:kh3_fx_regression.exe
+  .\kh3_fx_regression.exe
+  cl /nologo /EHsc /std:c++20 /O2 /W4 tools/kh3_fx_budget.cpp /Fe:kh3_fx_budget.exe
+  .\kh3_fx_budget.exe res/kh3fx/meshes.bin
+
+Separate extracted-mesh validation: tools/kh3-fx-mesh-validation.json.
+Source RGB/alpha vertex gradients, positions, UVs, and indices are preserved.
+Native GX resource review: immutable texture buffers live until clearAssets;
+source KKRGBA01 emission/opacity masks become GX RGBA8 4x4 AR/GB tiles;
+independent emission RGB and opacity alpha are applied once each;
+source mirror/clamp addressing is retained, including mirrored quarter masks;
+indexed geometry writes 24 bytes/vertex matching POS+RGBA8+UV descriptors.
+
+This is simulation/resource evidence, not a substitute for in-game visual QA.
+Material arithmetic and SQEX UV-scroll composition are bounded reconstructions
+from retained source parameters; cooked graph links were stripped. Unreal
+scene-depth soft-particle fading is not implemented in this GX packet.

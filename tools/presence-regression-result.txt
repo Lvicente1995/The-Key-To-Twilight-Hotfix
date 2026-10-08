@@ -1,0 +1,1 @@
+PASS: 65536 exhaustive sequences, 491520 exact transition events, 12000 stable ticks, KH3 visibility timing, rapid reversals, bounded emission, reset suppression.

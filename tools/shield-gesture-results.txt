@@ -1,0 +1,6 @@
+Production shield-gesture track sampler test
+Compiler: Microsoft C/C++ 19.44.35207, Windows x64, C++20, assertions enabled
+Uses Dusklight SDK types and minimal engine lifecycle stubs.
+PASS: 1860 owned joint samples; six rates both directions; exact contact edge; endpoint/fade duration; source-frame restoration; source mutation isolation; cancellation; capacity bounds.
+The final sampler runs at 75% native speed with a five-tick settling blend, following user feedback that the first shield gesture felt too fast.
+Does not validate actual native animation geometry, hook timing or in-game shield alignment.

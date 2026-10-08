@@ -1,0 +1,766 @@
+{
+  "source": "Dusklight v2.0.3 include/Z2AudioLib/Z2SeMgr.h",
+  "scope": "Explicit human Link nonverbal gameplay and cutscene vocals; no wolf or story dialogue IDs",
+  "mappings": [
+    {
+      "id": 65536,
+      "name": "Z2SE_AL_V_ATTACK_S",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65537,
+      "name": "Z2SE_AL_V_ATTACK_L",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65538,
+      "name": "Z2SE_AL_V_DAMAGE_S",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65539,
+      "name": "Z2SE_AL_V_DAMAGE_L",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65540,
+      "name": "Z2SE_AL_V_ATTACK_M",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65541,
+      "name": "Z2SE_AL_V_JUMP_S",
+      "group": "Jump"
+    },
+    {
+      "id": 65542,
+      "name": "Z2SE_AL_V_JUMP_L",
+      "group": "Jump"
+    },
+    {
+      "id": 65543,
+      "name": "Z2SE_AL_V_BACKTEN",
+      "group": "Jump"
+    },
+    {
+      "id": 65544,
+      "name": "Z2SE_AL_V_ZENTEN_FAIL",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65545,
+      "name": "Z2SE_AL_V_ZENTEN_FAIL_2",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65546,
+      "name": "Z2SE_AL_V_GRAB",
+      "group": "Exertion"
+    },
+    {
+      "id": 65547,
+      "name": "Z2SE_AL_V_FOOT_MISS",
+      "group": "Gasp"
+    },
+    {
+      "id": 65548,
+      "name": "Z2SE_AL_V_FALL",
+      "group": "Scream"
+    },
+    {
+      "id": 65549,
+      "name": "Z2SE_AL_V_LANDING_FAIL",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65550,
+      "name": "Z2SE_AL_V_LANDING_FAIL_2",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65551,
+      "name": "Z2SE_AL_V_LIFTUP_S",
+      "group": "Exertion"
+    },
+    {
+      "id": 65552,
+      "name": "Z2SE_AL_V_LIFTUP_L",
+      "group": "Exertion"
+    },
+    {
+      "id": 65553,
+      "name": "Z2SE_AL_V_THROW_S",
+      "group": "Exertion"
+    },
+    {
+      "id": 65554,
+      "name": "Z2SE_AL_V_THROW_L",
+      "group": "Exertion"
+    },
+    {
+      "id": 65555,
+      "name": "Z2SE_AL_V_PUSH_ROCK",
+      "group": "Exertion"
+    },
+    {
+      "id": 65556,
+      "name": "Z2SE_AL_V_TIRED_S",
+      "group": "Breath"
+    },
+    {
+      "id": 65557,
+      "name": "Z2SE_AL_V_TIRED_L",
+      "group": "Breath"
+    },
+    {
+      "id": 65558,
+      "name": "Z2SE_AL_V_DIE",
+      "group": "Scream"
+    },
+    {
+      "id": 65559,
+      "name": "Z2SE_AL_V_DIE_SHORT",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65560,
+      "name": "Z2SE_AL_V_CLIMB",
+      "group": "Exertion"
+    },
+    {
+      "id": 65561,
+      "name": "Z2SE_AL_V_DRINK",
+      "group": "Soft"
+    },
+    {
+      "id": 65562,
+      "name": "Z2SE_AL_V_DRINK_2",
+      "group": "Soft"
+    },
+    {
+      "id": 65563,
+      "name": "Z2SE_AL_V_RUSH_HORSE",
+      "group": "Exertion"
+    },
+    {
+      "id": 65564,
+      "name": "Z2SE_AL_V_ATTACK_RUN",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65565,
+      "name": "Z2SE_AL_V_SWING_BOTTLE",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65566,
+      "name": "Z2SE_AL_V_BITTEN_LOOP",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65567,
+      "name": "Z2SE_AL_V_D04_WAKE_UP",
+      "group": "Breath"
+    },
+    {
+      "id": 65568,
+      "name": "Z2SE_AL_V_D04_NOTICE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65569,
+      "name": "Z2SE_AL_V_D04_SURPRISE_A",
+      "group": "Gasp"
+    },
+    {
+      "id": 65570,
+      "name": "Z2SE_AL_V_D04_SURPRISE_B",
+      "group": "Gasp"
+    },
+    {
+      "id": 65571,
+      "name": "Z2SE_AL_V_D04_KIDNAPPED",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65572,
+      "name": "Z2SE_AL_V_D04_SURPRISE_C",
+      "group": "Gasp"
+    },
+    {
+      "id": 65573,
+      "name": "Z2SE_AL_V_GORONJUMP",
+      "group": "Jump"
+    },
+    {
+      "id": 65574,
+      "name": "Z2SE_AL_V_DRINK_DAMAGE",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65575,
+      "name": "Z2SE_AL_V_SWING_IB",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65576,
+      "name": "Z2SE_AL_V_THROW_IB",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65577,
+      "name": "Z2SE_AL_V_FALL_MAGMA",
+      "group": "Scream"
+    },
+    {
+      "id": 65578,
+      "name": "Z2SE_AL_V_FALL_QUICKSAND",
+      "group": "Scream"
+    },
+    {
+      "id": 65579,
+      "name": "Z2SE_AL_V_ATTACK_S_FREE",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65580,
+      "name": "Z2SE_AL_V_ATTACK_M_FREE",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65581,
+      "name": "Z2SE_AL_V_ATTACK_L_FREE",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65608,
+      "name": "Z2SE_AL_V_SUMO_HARITE_ATK",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65609,
+      "name": "Z2SE_AL_V_SUMO_HARITE_DMG",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65610,
+      "name": "Z2SE_AL_V_SUMO_TUCKLE_ATK",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65611,
+      "name": "Z2SE_AL_V_SUMO_HOLDED",
+      "group": "Exertion"
+    },
+    {
+      "id": 65612,
+      "name": "Z2SE_AL_V_SUMO_HOLD_BACK",
+      "group": "Exertion"
+    },
+    {
+      "id": 65613,
+      "name": "Z2SE_AL_V_SUMO_PUSH",
+      "group": "Exertion"
+    },
+    {
+      "id": 65614,
+      "name": "Z2SE_AL_V_SUMO_PUSH_LAST",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65615,
+      "name": "Z2SE_AL_V_SUMO_FALL_LOSE",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65616,
+      "name": "Z2SE_AL_V_UNDER_WATER",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65617,
+      "name": "Z2SE_AL_V_KAITEN",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65618,
+      "name": "Z2SE_AL_V_KAITEN_FREE",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65619,
+      "name": "Z2SE_AL_V_DAMAGE_FREEZE",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65620,
+      "name": "Z2SE_AL_V_DAMAGE_ELEC",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65621,
+      "name": "Z2SE_AL_V_DAMAGE_COMIC",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65622,
+      "name": "Z2SE_AL_V_BACKTEN_FREE",
+      "group": "Jump"
+    },
+    {
+      "id": 65623,
+      "name": "Z2SE_AL_V_JUMP_HANG",
+      "group": "Jump"
+    },
+    {
+      "id": 65624,
+      "name": "Z2SE_AL_V_CLIMB_WALL",
+      "group": "Exertion"
+    },
+    {
+      "id": 65625,
+      "name": "Z2SE_AL_V_THROW_GORON",
+      "group": "Exertion"
+    },
+    {
+      "id": 65626,
+      "name": "Z2SE_AL_V_PULL_CHAIN_FM",
+      "group": "Exertion"
+    },
+    {
+      "id": 65627,
+      "name": "Z2SE_AL_V_DIVING",
+      "group": "Jump"
+    },
+    {
+      "id": 65628,
+      "name": "Z2SE_AL_V_MAGNET_CAUGHT",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65629,
+      "name": "Z2SE_AL_V_RELAX_A",
+      "group": "Breath"
+    },
+    {
+      "id": 65630,
+      "name": "Z2SE_AL_V_RELAX_B",
+      "group": "Breath"
+    },
+    {
+      "id": 65631,
+      "name": "Z2SE_AL_V_RELAX_C",
+      "group": "Breath"
+    },
+    {
+      "id": 65632,
+      "name": "Z2SE_AL_V_TAMING",
+      "group": "Exertion"
+    },
+    {
+      "id": 65633,
+      "name": "Z2SE_AL_V_SUMO_SHIKO",
+      "group": "Exertion"
+    },
+    {
+      "id": 65634,
+      "name": "Z2SE_AL_V_SUMO_PUSHED_BACK",
+      "group": "Exertion"
+    },
+    {
+      "id": 65635,
+      "name": "Z2SE_AL_V_ATTACK_RUN_FREE",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65636,
+      "name": "Z2SE_AL_V_D02_LOOKBACK",
+      "group": "Gasp"
+    },
+    {
+      "id": 65637,
+      "name": "Z2SE_AL_V_D02_WRY_FACE",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65638,
+      "name": "Z2SE_AL_V_D04_NOD_SMILE",
+      "group": "Soft"
+    },
+    {
+      "id": 65639,
+      "name": "Z2SE_AL_V_D04_LOOKBACK",
+      "group": "Gasp"
+    },
+    {
+      "id": 65640,
+      "name": "Z2SE_AL_V_D04_SURPRISE_D",
+      "group": "Gasp"
+    },
+    {
+      "id": 65641,
+      "name": "Z2SE_AL_V_D04_ATTACKED",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65642,
+      "name": "Z2SE_AL_V_D04_SURPRISE_E",
+      "group": "Gasp"
+    },
+    {
+      "id": 65643,
+      "name": "Z2SE_AL_V_D04_DASH",
+      "group": "Jump"
+    },
+    {
+      "id": 65644,
+      "name": "Z2SE_AL_V_D04_SUFFER_A",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65645,
+      "name": "Z2SE_AL_V_D04_SUFFER_B",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65646,
+      "name": "Z2SE_AL_V_D04_SUFFER_C",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65647,
+      "name": "Z2SE_AL_V_D04_FALL_DOWN_A",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65648,
+      "name": "Z2SE_AL_V_D04_FALL_DOWN_B",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65649,
+      "name": "Z2SE_AL_V_D04_TRANSFORM",
+      "group": "Scream"
+    },
+    {
+      "id": 65650,
+      "name": "Z2SE_AL_V_D11_SURPRISE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65651,
+      "name": "Z2SE_AL_V_D15_RUSH_HORSE",
+      "group": "Exertion"
+    },
+    {
+      "id": 65652,
+      "name": "Z2SE_AL_V_D15_SURPRISE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65653,
+      "name": "Z2SE_AL_V_D15_ANGER",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65654,
+      "name": "Z2SE_AL_V_D36_SWAY_JUMP",
+      "group": "Jump"
+    },
+    {
+      "id": 65655,
+      "name": "Z2SE_AL_V_D36_SWAY_LAND",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65656,
+      "name": "Z2SE_AL_V_D36_JUMP_TO_HORSE",
+      "group": "Jump"
+    },
+    {
+      "id": 65657,
+      "name": "Z2SE_AL_V_D36_LOOSE_BALANCE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65658,
+      "name": "Z2SE_AL_V_D36_HANG_HORSE",
+      "group": "Exertion"
+    },
+    {
+      "id": 65659,
+      "name": "Z2SE_AL_V_D36_LOOK_BACK",
+      "group": "Gasp"
+    },
+    {
+      "id": 65660,
+      "name": "Z2SE_AL_V_D16_SMILE",
+      "group": "Soft"
+    },
+    {
+      "id": 65661,
+      "name": "Z2SE_AL_V_D17_LOOK_BACK",
+      "group": "Gasp"
+    },
+    {
+      "id": 65662,
+      "name": "Z2SE_AL_V_D17_NOD",
+      "group": "Soft"
+    },
+    {
+      "id": 65663,
+      "name": "Z2SE_AL_V_D18_SMILING",
+      "group": "Soft"
+    },
+    {
+      "id": 65664,
+      "name": "Z2SE_AL_V_D18_SHUDDER",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65665,
+      "name": "Z2SE_AL_V_D18_DARK_LAUGH",
+      "group": "Soft"
+    },
+    {
+      "id": 65666,
+      "name": "Z2SE_AL_V_D18_SCREAM",
+      "group": "Scream"
+    },
+    {
+      "id": 65667,
+      "name": "Z2SE_AL_V_D18_AWAKE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65668,
+      "name": "Z2SE_AL_V_D19_HIT_SHOULDER",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65669,
+      "name": "Z2SE_AL_V_D19_WORRIED",
+      "group": "Gasp"
+    },
+    {
+      "id": 65670,
+      "name": "Z2SE_AL_V_D19_NOTICE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65671,
+      "name": "Z2SE_AL_V_D19_CANT_SAY",
+      "group": "Gasp"
+    },
+    {
+      "id": 65672,
+      "name": "Z2SE_AL_V_D35_LOOK_BACK",
+      "group": "Gasp"
+    },
+    {
+      "id": 65673,
+      "name": "Z2SE_AL_V_D20_SURPRISE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65674,
+      "name": "Z2SE_AL_V_D20_UPSET",
+      "group": "Gasp"
+    },
+    {
+      "id": 65675,
+      "name": "Z2SE_AL_V_D20_DAMAGE",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65676,
+      "name": "Z2SE_AL_V_D22_PULLOUT",
+      "group": "Exertion"
+    },
+    {
+      "id": 65677,
+      "name": "Z2SE_AL_V_D22_TAKE_A_REST",
+      "group": "Breath"
+    },
+    {
+      "id": 65678,
+      "name": "Z2SE_AL_V_CANON_JUMP",
+      "group": "Jump"
+    },
+    {
+      "id": 65679,
+      "name": "Z2SE_AL_V_JUMP_DIVING",
+      "group": "Jump"
+    },
+    {
+      "id": 65680,
+      "name": "Z2SE_AL_V_INSECT_LOOP",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65681,
+      "name": "Z2SE_AL_V_GUARD_BROKEN",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65682,
+      "name": "Z2SE_AL_V_TAME",
+      "group": "Exertion"
+    },
+    {
+      "id": 65683,
+      "name": "Z2SE_AL_V_TATE_OSHI",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65684,
+      "name": "Z2SE_AL_V_TODOME_JUMP",
+      "group": "Jump"
+    },
+    {
+      "id": 65685,
+      "name": "Z2SE_AL_V_TODOME_RETURN",
+      "group": "Jump"
+    },
+    {
+      "id": 65686,
+      "name": "Z2SE_AL_V_SOTOMO_ROLL",
+      "group": "Jump"
+    },
+    {
+      "id": 65687,
+      "name": "Z2SE_AL_V_SOTOMO_ATK",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65688,
+      "name": "Z2SE_AL_V_KABUTO_JUMP",
+      "group": "Jump"
+    },
+    {
+      "id": 65689,
+      "name": "Z2SE_AL_V_KABUTO_ATK",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65690,
+      "name": "Z2SE_AL_V_IAIGIRI",
+      "group": "AttackLight"
+    },
+    {
+      "id": 65691,
+      "name": "Z2SE_AL_V_JUMP_ATTACK_L_1",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65692,
+      "name": "Z2SE_AL_V_JUMP_ATTACK_L_2",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65693,
+      "name": "Z2SE_AL_V_KAITENGIRI_L",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65694,
+      "name": "Z2SE_AL_V_OUGI_KAMAE",
+      "group": "Exertion"
+    },
+    {
+      "id": 65695,
+      "name": "Z2SE_AL_V_ENTRANCE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65696,
+      "name": "Z2SE_AL_V_APPEARANCE",
+      "group": "Gasp"
+    },
+    {
+      "id": 65697,
+      "name": "Z2SE_AL_V_TW_PULL",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65698,
+      "name": "Z2SE_AL_V_D_MHOP",
+      "group": "Jump"
+    },
+    {
+      "id": 65699,
+      "name": "Z2SE_AL_V_MSTR_SW_STICK",
+      "group": "Exertion"
+    },
+    {
+      "id": 65700,
+      "name": "Z2SE_AL_V_MSTR_SW_PULLOUT",
+      "group": "Exertion"
+    },
+    {
+      "id": 65701,
+      "name": "Z2SE_AL_V_GET_SWL",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65702,
+      "name": "Z2SE_AL_V_D_ODOROKU",
+      "group": "Gasp"
+    },
+    {
+      "id": 65703,
+      "name": "Z2SE_AL_V_D_ASHIMOTO",
+      "group": "Gasp"
+    },
+    {
+      "id": 65704,
+      "name": "Z2SE_AL_V_D_UNAZUKU",
+      "group": "Soft"
+    },
+    {
+      "id": 65705,
+      "name": "Z2SE_AL_V_TERRORED",
+      "group": "Scream"
+    },
+    {
+      "id": 65707,
+      "name": "Z2SE_AL_V_DAMAGE_ON_HORSE",
+      "group": "HurtLight"
+    },
+    {
+      "id": 65708,
+      "name": "Z2SE_AL_V_CLING_HORSE",
+      "group": "Exertion"
+    },
+    {
+      "id": 65709,
+      "name": "Z2SE_AL_V_TRANSFORM",
+      "group": "HurtHeavy"
+    },
+    {
+      "id": 65730,
+      "name": "Z2SE_AL_V_VS_GND_TUBA_A",
+      "group": "Exertion"
+    },
+    {
+      "id": 65731,
+      "name": "Z2SE_AL_V_VS_GND_TUBA_B",
+      "group": "Exertion"
+    },
+    {
+      "id": 65732,
+      "name": "Z2SE_AL_V_VS_GND_TUBA_C",
+      "group": "Exertion"
+    },
+    {
+      "id": 65733,
+      "name": "Z2SE_AL_V_VS_GND_TUBA_WIN",
+      "group": "AttackStrong"
+    },
+    {
+      "id": 65734,
+      "name": "Z2SE_AL_V_VS_GND_TUBA_LOSE",
+      "group": "HurtHeavy"
+    }
+  ]
+}
