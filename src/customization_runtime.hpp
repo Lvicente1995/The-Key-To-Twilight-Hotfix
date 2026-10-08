@@ -89,7 +89,10 @@ void apply(const selections::Selection& requested) {
             if(character.setEnabled(true))applied.character=CharacterSelection::Xion;
             else characterError="Xion could not be activated.";
         }
-        characterVoice.setEnabled(applied.character==CharacterSelection::Xion);
+        // DIAGNOSTIC BUILD: keep Xion voice substitution disabled while leaving
+        // the Xion renderer active. This isolates renderer crashes from the
+        // global JAISe voice prepare hook without removing/loading assets.
+        characterVoice.setEnabled(false);
     }
     std::string status;
     if(requested.keyblade!=applied.keyblade)
@@ -98,7 +101,7 @@ void apply(const selections::Selection& requested) {
         if(!status.empty())status+='\n';
         status+=characterError+" Using Link. Repair the assets and reload the mod.";
     }
-    if(status.empty())status="Selections apply immediately. Armor abilities stay unchanged.";
+    if(status.empty())status="DIAGNOSTIC: Xion rendering enabled; Xion voice replacement disabled. Armor abilities stay unchanged.";
     if(applied.keyblade==KeybladeSelection::KingdomKey&&!keybladeWarning.empty())
         status+='\n'+keybladeWarning;
     if(applied.character==CharacterSelection::Xion&&!characterVoiceWarning.empty())
@@ -107,11 +110,12 @@ void apply(const selections::Selection& requested) {
 }
 
 HookAction onPrepareCustomSound(ModContext* context,void* args,void* result,void* user) {
-    // JAISe is global. Only substitute character vocals while the current
-    // local player is actually being rendered as Xion. This keeps scene-load
-    // and multiplayer/remote-player audio out of the character voice path.
-    if(character.hasGameplayPacket()
-        &&characterVoice.prepareSequence(mods::arg<JAISe*>(args,0))) {
+    // Audio preparation can run on the host audio thread. Never read renderer
+    // packet state here: those pointers are owned by the render thread and can
+    // be reset during scene transitions. CharacterVoice::prepareSequence is
+    // already gated by its atomic enabled flag and only claims mapped Link
+    // human-voice IDs.
+    if(characterVoice.prepareSequence(mods::arg<JAISe*>(args,0))) {
         *static_cast<bool*>(result)=true;
         return HOOK_SKIP_ORIGINAL;
     }
