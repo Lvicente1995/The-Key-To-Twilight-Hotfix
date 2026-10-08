@@ -1,0 +1,422 @@
+{
+  "jmb_bsc_mk": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmb_bsc_mk-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_ma.jmb_bsc_ma",
+    "texture": {},
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": null
+  },
+  "jmb_bsc_msa": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmb_bsc_msa-slim.json",
+    "class": "Material",
+    "parent": null,
+    "texture": {},
+    "scalar": {},
+    "vector": {},
+    "master_texture_samples": [
+      "/Game/Effects/texcom/tex/icon/jtx_ic_bsc_m.jtx_ic_bsc_m",
+      "/Game/Effects/texcom/tex/jtx_1dot_wht_00m.jtx_1dot_wht_00m"
+    ],
+    "primary_texture": null
+  },
+  "jmb_bsc_msk": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmb_bsc_msk-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_msa.jmb_bsc_msa",
+    "texture": {},
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": null
+  },
+  "jmb_uv_ma": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmb_uv_ma-slim.json",
+    "class": "Material",
+    "parent": null,
+    "texture": {},
+    "scalar": {},
+    "vector": {},
+    "master_texture_samples": [
+      "/Game/Effects/texcom/tex/jtx_1dot_wht_00m.jtx_1dot_wht_00m",
+      "/Game/Effects/texcom/tex/icon/jtx_ic_uv_m.jtx_ic_uv_m"
+    ],
+    "primary_texture": null
+  },
+  "jmb_uv_msla": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmb_uv_msla-slim.json",
+    "class": "Material",
+    "parent": null,
+    "texture": {},
+    "scalar": {},
+    "vector": {},
+    "master_texture_samples": [
+      "/Game/Effects/texcom/tex/jtx_1dot_wht_00m.jtx_1dot_wht_00m",
+      "/Game/Effects/texcom/tex/icon/jtx_ic_uv_ml.jtx_ic_uv_ml"
+    ],
+    "primary_texture": null
+  },
+  "jmb_wht_k": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmb_wht_k-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_wht_a.jmb_wht_a",
+    "texture": {},
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": null
+  },
+  "jmi_glt_05k": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmi_glt_05k-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_mk.jmb_bsc_mk",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_1dot_wht_00m.jtx_1dot_wht_00m",
+      "Tex Opa": "/Game/Effects/texcom/tex/jtx_glt_05a_clamp.jtx_glt_05a_clamp"
+    },
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": "jtx_glt_05a_clamp",
+    "address_u": "TA_Clamp",
+    "address_v": "TA_Clamp",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "jmi_glw_01sa": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmi_glw_01sa-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_msa.jmb_bsc_msa",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_glw_01m_clamp.jtx_glw_01m_clamp",
+      "Tex Opa": "/Game/Effects/texcom/tex/jtx_glw_01a_clamp.jtx_glw_01a_clamp"
+    },
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": "jtx_glw_01a_clamp",
+    "address_u": "TA_Clamp",
+    "address_v": "TA_Clamp",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "jmi_glw_01sk": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmi_glw_01sk-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_msk.jmb_bsc_msk",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_glw_01m_clamp.jtx_glw_01m_clamp",
+      "Tex Opa": "/Game/Effects/texcom/tex/jtx_glw_01a_clamp.jtx_glw_01a_clamp"
+    },
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": "jtx_glw_01a_clamp",
+    "address_u": "TA_Clamp",
+    "address_v": "TA_Clamp",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "jmi_sho_00a": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmi_sho_00a-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_uv_ma.jmb_uv_ma",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_sho_00m.jtx_sho_00m",
+      "Tex Opa": "/Game/Effects/texcom/tex/jtx_sho_00a.jtx_sho_00a"
+    },
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": "jtx_sho_00a",
+    "address_u": "TA_Wrap",
+    "address_v": "TA_Wrap",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "jmi_wht_k": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\jmi_wht_k-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_wht_k.jmb_wht_k",
+    "texture": {},
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "implementation_note": "No sampled opacity texture in source; use solid white. smt_frn_01a has a Fresnel/translucency shader beyond the texture map.",
+    "primary_texture": "jtx_1dot_wht_00m",
+    "address_u": "TA_Wrap",
+    "address_v": "TA_Wrap",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "nmi_ora_01sla": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\nmi_ora_01sla-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_uv_msla.jmb_uv_msla",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_1dot_wht_00m.jtx_1dot_wht_00m",
+      "Tex Opa": "/Game/Effects/trescom/tex/ora/stx_ora_01m.stx_ora_01m"
+    },
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": "stx_ora_01m",
+    "address_u": "TA_Wrap",
+    "address_v": "TA_Wrap",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "omi_fls_01k": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\omi_fls_01k-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_msk.jmb_bsc_msk",
+    "texture": {
+      "Tex Emi": "/Game/Effects/trescom/tex/glw/otx_grd_01m.otx_grd_01m",
+      "Tex Opa": "/Game/Effects/trescom/tex/fls/otx_fls_00m.otx_fls_00m"
+    },
+    "scalar": {
+      "Bright Add Emi": "+0",
+      "Bright Multi Emi": -1.0,
+      "Bright Add Opa": "+0",
+      "Bright Multi Opa": 0.30000001192092896,
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {
+      "2c Black Color": {
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "2c White Color": {
+        "ParameterValue": {
+          "R": "+0",
+          "G": "+0",
+          "B": "+0",
+          "A": 1.0
+        }
+      }
+    },
+    "master_texture_samples": [],
+    "primary_texture": "otx_fls_00m",
+    "address_u": "TA_Mirror",
+    "address_v": "TA_Mirror",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "smt_frn_01a": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\Smt_frn_01a-slim.json",
+    "class": "Material",
+    "parent": null,
+    "texture": {},
+    "scalar": {},
+    "vector": {},
+    "master_texture_samples": [],
+    "implementation_note": "No sampled opacity texture in source; use solid white. smt_frn_01a has a Fresnel/translucency shader beyond the texture map.",
+    "primary_texture": "jtx_1dot_wht_00m",
+    "address_u": "TA_Wrap",
+    "address_v": "TA_Wrap",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "smt_rng_k0sa": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\smt_rng_k0sa-slim.json",
+    "class": "Material",
+    "parent": null,
+    "texture": {},
+    "scalar": {},
+    "vector": {},
+    "master_texture_samples": [
+      "/Game/Effects/texcom/tex/jtx_grdb_02a.jtx_grdb_02a",
+      "/Game/Effects/trescom/tex/stx_rng_00a.stx_rng_00a"
+    ],
+    "primary_texture": null
+  },
+  "tmi_fls_05a": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\tmi_fls_05a-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_mk.jmb_bsc_mk",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_1dot_wht_00m.jtx_1dot_wht_00m",
+      "Tex Opa": "/Game/Effects/trescom/tex/fls/ttx_fls_02a.ttx_fls_02a"
+    },
+    "scalar": {
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "primary_texture": "ttx_fls_02a",
+    "address_u": "TA_Wrap",
+    "address_v": "TA_Wrap",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "zmi_crs_03csk": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\zmi_crs_03csk-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_msk.jmb_bsc_msk",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_crs_03a.jtx_crs_03a",
+      "Tex Opa": "/Game/Effects/texcom/tex/jtx_crs_03a.jtx_crs_03a"
+    },
+    "scalar": {
+      "Bright Add Emi": "+0",
+      "Bright Multi Emi": 1.0880169868469238,
+      "U Tiling Emi": 2.0,
+      "V Tiling Emi": 2.0,
+      "Bright Add Opa": "+0",
+      "Bright Multi Opa": 3.0,
+      "U Tiling Opa": 2.0,
+      "V Tiling Opa": 2.0,
+      "FadeDistance": 50.0,
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {
+      "2c Black Color": {
+        "ParameterValue": {
+          "R": 0.25,
+          "G": 0.800000011920929,
+          "B": 1.1299999952316284,
+          "A": 1.0
+        }
+      },
+      "2c White Color": {
+        "ParameterValue": {
+          "R": 1.100000023841858,
+          "G": 1.1200000047683716,
+          "B": 1.0800000429153442,
+          "A": 1.0
+        }
+      }
+    },
+    "master_texture_samples": [],
+    "primary_texture": "jtx_crs_03a",
+    "address_u": "TA_Mirror",
+    "address_v": "TA_Mirror",
+    "uv_scale_u": 2.0,
+    "uv_scale_v": 2.0
+  },
+  "zmi_glw_00sk": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\zmi_glw_00sk-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_msk.jmb_bsc_msk",
+    "texture": {
+      "Tex Emi": "/Game/Effects/texcom/tex/jtx_glt_05a_clamp.jtx_glt_05a_clamp",
+      "Tex Opa": "/Game/Effects/texcom/tex/jtx_glt_05a_clamp.jtx_glt_05a_clamp"
+    },
+    "scalar": {
+      "Bright Add Emi": 0.10000000149011612,
+      "Bright Multi Emi": 1.0,
+      "FadeDistance": 50.0,
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {
+      "2c Black Color": {
+        "ParameterValue": {
+          "R": 0.30000001192092896,
+          "G": 0.699999988079071,
+          "B": 0.8999999761581421,
+          "A": 1.0
+        }
+      },
+      "2c White Color": {
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      }
+    },
+    "master_texture_samples": [],
+    "primary_texture": "jtx_glt_05a_clamp",
+    "address_u": "TA_Clamp",
+    "address_v": "TA_Clamp",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  },
+  "zmi_glw_01sk": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\zmi_glw_01sk-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/texcom/mat_master/jmb_bsc_msk.jmb_bsc_msk",
+    "texture": {
+      "Tex Emi": "/Game/Effects/trescom/tex/glw/ztx_glt_00a.ztx_glt_00a",
+      "Tex Opa": "/Game/Effects/trescom/tex/glw/ztx_glt_00a.ztx_glt_00a"
+    },
+    "scalar": {
+      "Bright Add Emi": 0.10000000149011612,
+      "Bright Multi Emi": 1.0,
+      "U Tiling Emi": 2.0,
+      "V Tiling Emi": 2.0,
+      "U Tiling Opa": 2.0,
+      "V Tiling Opa": 2.0,
+      "FadeDistance": 50.0,
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {
+      "2c Black Color": {
+        "ParameterValue": {
+          "R": 0.30000001192092896,
+          "G": 0.699999988079071,
+          "B": 0.8999999761581421,
+          "A": 1.0
+        }
+      },
+      "2c White Color": {
+        "ParameterValue": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      }
+    },
+    "master_texture_samples": [],
+    "primary_texture": "ztx_glt_00a",
+    "address_u": "TA_Mirror",
+    "address_v": "TA_Mirror",
+    "uv_scale_u": 2.0,
+    "uv_scale_v": 2.0
+  },
+  "zmi_rng_00sa": {
+    "source": "D:\\Codex\\2026-09-30\\i-x20\\work\\kh3-reference\\textures\\materials\\zmi_rng_00sa-slim.json",
+    "class": "MaterialInstanceConstant",
+    "parent": "/Game/Effects/trescom/mat/smt_rng_k0sa.smt_rng_k0sa",
+    "texture": {},
+    "scalar": {
+      "\u30ea\u30f3\u30b0-\u30ac\u30f3\u30de": 0.25,
+      "\u4fb5\u98df-\u30ac\u30f3\u30de": 3.0,
+      "RefractionDepthBias": "+0"
+    },
+    "vector": {},
+    "master_texture_samples": [],
+    "implementation_note": "Primary ring mask proven by smt_rng_k0sa parent. Parent also uses jtx_grdb_02a and erosion/ring gamma; a single-texture renderer approximates its shader.",
+    "primary_texture": "stx_rng_00a",
+    "address_u": "TA_Mirror",
+    "address_v": "TA_Mirror",
+    "uv_scale_u": 1.0,
+    "uv_scale_v": 1.0
+  }
+}

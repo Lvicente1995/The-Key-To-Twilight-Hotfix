@@ -1,0 +1,14 @@
+# Actual KH3 material Tex Opa map; remaining material parameters in material-parameters.json
+jmi_glt_05k jtx_glt_05a_clamp
+jmi_glw_01sa jtx_glw_01a_clamp
+jmi_glw_01sk jtx_glw_01a_clamp
+jmi_sho_00a jtx_sho_00a
+jmi_wht_k jtx_1dot_wht_00m
+nmi_ora_01sla stx_ora_01m
+omi_fls_01k otx_fls_00m
+smt_frn_01a jtx_1dot_wht_00m
+tmi_fls_05a ttx_fls_02a
+zmi_crs_03csk jtx_crs_03a
+zmi_glw_00sk jtx_glt_05a_clamp
+zmi_glw_01sk ztx_glt_00a
+zmi_rng_00sa stx_rng_00a
